@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+            var member  = ['egoing', 'k8805', 'sorialgi']
+
+            document.write(member + '<br />');
+            document.write(member[1]); //대괄호 안에 있는 '1'은 인덱스 번호다. 해당 인덱스 번호의 값을 반환하다.
+
+            function get_members(){
+                return ['egoing', 'k8805', 'sorialgi'];
+            }
+            var members = get_members();
+            document.write(members[0]);
+            document.write(members[1]);
+
+        </script>
+    </body>
+</html>
