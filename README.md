@@ -1,6 +1,6 @@
 # JavaScript-Basic-Language
 
-*숫자와 문자
++숫자와 문자
 *변수
 *비교
 *조건문
