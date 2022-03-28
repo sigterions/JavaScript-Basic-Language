@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- 
+            웹 브라우저가 script라는 태그를 만나면 그 스크립트에 src라고 하는 속성이 있는지 확인한다.
+            'src="greeting.js"'을 속성이라고 한다. 그 속성에 어떠한 값이 있다면 그 값에 해당되는 파일을 읽어온다.
+            읽어오면 <script src="greeting.js">'greeting.js 코드'</script> script 사이에 greeting.js 코드가 들어온 것과 동일한 효과를 낸다.
+            즉 아래 코드를 보면 greeting.js에서 welcome이라는 함수를 불러와 사용하는 것을 볼 수 있다.
+        -->
+        <script src="greeting.js"></script> 
+    </head>
+    <body>
+        <script>
+            alert(welcome());
+        </script>
+    </body>
+</html>

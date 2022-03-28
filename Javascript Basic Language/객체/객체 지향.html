@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+            // 하나의 객체가 있고, 객체 안에는 어떠한 데이터가 있다.
+            // 그 데이터를 사용하는 함수가 있다. 함수를 호출 할 때는 '함수 이름'.key()로 호출이 가능하다.
+            // 서로 연관되어 있는 값과 데이터를 하나의 그릇안에 모아논 것을 객체지향이다.
+            var li = {
+                'list' : {'egoing' : 10, 'k8805' : 8, 'sorialgi' : 80},
+                'show' : function(){
+                    for(var name in this.list){
+                        document.write(name, this.list.name, "<br />");
+                    }
+                    // alert(this.list); // this는 함수가 속해있는 객체를 가르키는 변수
+                }
+            }
+            // alert(li.list.egoing);
+            document.writ(li.show());       
+        </script>
+    </body>
+</html>
